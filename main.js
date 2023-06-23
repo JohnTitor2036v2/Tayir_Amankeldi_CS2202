@@ -53,7 +53,7 @@ function calculateScore() {
     document.getElementById("results").style.display = "block";
 }
 function playButtonClickSound() {
-    var audio = new Audio('button_click_sound.mp3');
+    var audio = new Audio('sound.mp3');
     audio.play();
 }
 
