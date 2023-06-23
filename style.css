@@ -38,27 +38,25 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
   background-color: #00abb3;
-      margin: 0;
-  }
-  
-  .container {
-	max-width: 500px;
-	margin: 0 auto;
   }
   
   .container img {
 	vertical-align: middle;
   }
   
-  .content {
+/*   .content {
 	position: absolute;
 	bottom: 0;
 	background-color: rgba(0, 0, 0, 0.5);
 	color: #f1f1f1;
 	width: 100%;
 	padding: 20px;
-  }
-  
+  } */
+
+.text-center {
+  text-align: center;
+}
+
   .text-block {
 	position: absolute;
 	top: 20px;
@@ -90,7 +88,7 @@ body {
 
   main {
 	margin: 20px auto;
-	padding: 0 20px;
+	padding: 20px;
   }
   
   section {
@@ -98,23 +96,17 @@ body {
     background-color: #b2b2b2;
   }
   
-  section h2 {
-	margin-top: 0;
-  }
   
-  table {
+/*   table {
             border: 1px solid #0b5ed7;
 	border-collapse: collapse;
 	padding: 10px;
-  }
+  } */
   
   li {
 	list-style-type: square;
   }
   
-  .centertext {
-	text-align: center;
-  }
   
   footer {
 	background-color: #3c4048;
@@ -125,21 +117,21 @@ body {
   
   /* Specific styles for each page */
   /* Home page */
-  .home section:first-child {
+/*   .home section:first-child {
 	font-size: 1.5em;
-  }
+  } */
   
-  .home ul {
+/*   .home ul {
 	margin-top: 20px;
-  }
-  img {
+  } */
+/*   img {
     width: 300px;
     height: auto;
-}
+} */
 
-.line {
+  .line {
     border-bottom: 1px solid #ece6e6; /* Параметры линии */
-}
+}  
 
 
   /*acccordian*/
@@ -165,6 +157,6 @@ body {
 .panel {
     padding: 0 230px;
     display: none;
-    background-color: white;
+    background-color: #eaeaea;
     overflow: hidden;
 }
