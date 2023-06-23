@@ -44,15 +44,6 @@ body {
 	vertical-align: middle;
   }
   
-/*   .content {
-	position: absolute;
-	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.5);
-	color: #f1f1f1;
-	width: 100%;
-	padding: 20px;
-  } */
-
 .text-center {
   text-align: center;
 }
@@ -96,13 +87,6 @@ body {
     background-color: #b2b2b2;
   }
   
-  
-/*   table {
-            border: 1px solid #0b5ed7;
-	border-collapse: collapse;
-	padding: 10px;
-  } */
-  
   li {
 	list-style-type: square;
   }
@@ -114,20 +98,6 @@ body {
 	text-align: center;
 	padding: 20px;
   }
-  
-  /* Specific styles for each page */
-  /* Home page */
-/*   .home section:first-child {
-	font-size: 1.5em;
-  } */
-  
-/*   .home ul {
-	margin-top: 20px;
-  } */
-/*   img {
-    width: 300px;
-    height: auto;
-} */
 
   .line {
     border-bottom: 1px solid #ece6e6; /* Параметры линии */
