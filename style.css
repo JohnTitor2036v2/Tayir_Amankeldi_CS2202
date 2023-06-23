@@ -194,6 +194,12 @@ img {
   max-width: 65%;
   max-height: auto;
 }
+
+.sound_button {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00ABB3;
+}
   
   footer {
 	background-color: #3c4048;
